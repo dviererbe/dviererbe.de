@@ -42,21 +42,18 @@ above listed addresses.
 > **Assume any message received from these addresses as malicious until
 > verified otherwise.**
 
-
 # Social
 
 You can find me on the following platforms (listed in no particular order).
 Be aware, that I don't check all platforms on a daily basis, therefore it can
 take some time until I notice any contact attempt.
 
-> **Assume any interactions on other platforms with accounts that try to as
-> malicious until verified otherwise.**
+> **Assume any interactions on other platforms with accounts that look like they
+> represent me as malicious until verified otherwise.**
 
 | Platform | Username |
 |----------|----------|
 | GitHub | [`dviererbe`](https://github.com/dviererbe) |
-| Launchpad | [`dviererbe`](https://launchpad.net/~dviererbe) |
-| Debian Salsa | [`dviererbe`](https://salsa.debian.org/dviererbe) |
 | Keybase | [`dviererbe`](https://keybase.io/dviererbe) |
 | Exercism | [`dviererbe`](https://exercism.org/profiles/dviererbe) |
 | HackerRank | [`dviererbe`](https://www.hackerrank.com/profile/dviererbe) |
@@ -65,11 +62,13 @@ take some time until I notice any contact attempt.
 | FragDenStaat | [Dominik Viererbe](https://fragdenstaat.de/profil/d.viererbe/) |
 | LinkedIn | [Dominik Viererbe](https://www.linkedin.com/in/dviererbe/?locale=en_US) |
 | XING | [Dominik Viererbe](https://www.xing.com/profile/Dominik_Viererbe) |
+| Launchpad | [`dviererbe`](https://launchpad.net/~dviererbe) |
 | Ubuntu Discourse | [`dviererbe`](https://discourse.ubuntu.com/u/dviererbe/summary) |
 | Snapcraft Discourse | [`dviererbe`](https://forum.snapcraft.io/u/dviererbe/summary) |
 | Ubuntu Matrix Homeserver | `dviererbe:ubuntu.com` |
 | Ubuntu IRC Server ([irc://irc.libera.chat:6697](irc://irc.libera.chat:6697)) | `dviererbe` | `irc://irc.libera.chat:6697` |
 | Debian IRC Server ([ircs://irc.oftc.net:6697](ircs://irc.oftc.net:6697)) | `dviererbe` |
+| Debian Salsa | [`dviererbe`](https://salsa.debian.org/dviererbe) |
 
 
 # Messenger
