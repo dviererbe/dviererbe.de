@@ -1,0 +1,28 @@
+<div class='header'>
+  <a class="header-logo" href="{{ .Site.Home.RelPermalink }}">
+    {{ $owner := index .Site.Data.authors .Site.Params.owner }}
+    <div class="author author-large">
+      <img width="50" class="author-image" src="{{ $owner.image | relURL }}" alt="{{ $owner.name }}" />
+      <span class="author-name">{{ $owner.name }}</span>
+      <div class="author-title" style="color: var(--text-color); font-weight: 500;">@{{ $owner.handle }} &middot; <span style="white-space: nowrap;">{{ $owner.pronouns }}</span></div>
+    </div>
+  </a>
+  <div class="menu-main">
+    <ul>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+      {{ $active = or $active (eq (.URL | relLangURL) ($currentPage.RelPermalink | relLangURL)) }}
+      <li class="menu-item-{{ .Name | lower }} {{ if $active }}active{{ end }}">
+        <a href="{{.URL}}">
+          {{ .Pre }}
+          <span>{{ .Name }}</span>
+        </a>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>

@@ -1,0 +1,135 @@
+.header a.header-logo
+{
+    text-transform: none;
+}
+
+.header a.header-logo:hover
+{
+    text-decoration: none;
+}
+
+table {
+    margin: 1em 0;
+}
+
+table, th
+{
+    border: 2px solid var(--base-offset-color);
+    border-collapse: collapse;
+}
+
+th, td
+{
+    padding: 0.6em;
+}
+
+th {
+    color: var(--heading-color);
+    background-color: var(--base-offset-color);
+    text-align: left;
+}
+
+td {
+    border: 2px dotted var(--base-offset-color);
+}
+
+.gpg-key-summary
+{
+    border-left: 5px solid var(--highlight-color);
+    padding: 0.4em 1em ;
+    margin: 1em 0em;
+    background-color: var(--base-offset-color);
+}
+
+.gpg-key-id {
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+.gpg-key-summary > :not(:first-child)
+{
+    margin-top: 1em;
+}
+
+.gpg-key-user-list
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1ch;
+}
+
+.gpg-key-user {
+    word-break: keep-all;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.gpg-key-user-name {
+    flex-shrink: 1;
+    margin-right: 1ch;
+}
+
+.gpg-key-user-email {
+    flex-shrink: 3;
+    word-break: break-all;
+}
+
+.gpg-key-comment {
+    margin: 1em 0;
+}
+
+.gpg-key-details-header {
+    margin-bottom: 0.5ch;
+}
+
+.gpg-key-subkey-list
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.gpg-key-subkey
+{
+    margin-left: 1em;
+}
+
+.gpg-key-subkey-id
+{
+    font-family: var(--font-family-monospace);
+}
+
+.gpg-key-subkey-type ~ .gpg-key-subkey-type::before
+{
+    content: ' ';
+}
+
+.gpg-key-subkey-type b
+{
+    font-weight: 500;
+}
+
+
+.gpg-key-download-script
+{
+    display: none;
+}
+
+@media screen and (min-width: 72ch) 
+{
+    .gpg-key-download-script
+    {
+        display: block;
+        padding: 1.5ch; 
+        background-color: var(--base-offset-color);
+        font-family: var(--font-family-monospace);
+        font-size: small;
+        font-weight: bold;
+        border-radius: 5px;
+        background-color: #3A3A3A;
+        color: var(--base-color);
+    }
+}
+

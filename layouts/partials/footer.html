@@ -1,0 +1,16 @@
+<div class="footer">
+  {{ if .Site.Data.social.links }}
+  <div class="footer-social">
+    {{ range .Site.Data.social.links }}
+      <span class="social-icon social-icon-{{ .name | urlize }}">
+        <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener">
+          <img src="{{ .image | relURL }}" width="24" height="24" alt="{{ .name }}"/>
+        </a>
+      </span>
+    {{ end }}
+  </div>
+  {{ end }}
+  <div style="margin-top: 1em;">
+    This website does <b>NOT</b> use cookies. See the <a href="/privacy-policy/">privacy policy</a> for more details. Report issues with this site <a href="https://github.com/dviererbe/dviererbe.de/issues">here</a>.
+  </div>
+</div>

@@ -1,0 +1,61 @@
+{{ $key := index (index .Site.Data "gpg-keys") (.Get "keyid") }}
+
+<div id="gpg-key-{{ $key.id }}" class="gpg-key-summary"> 
+    <div class="gpg-key-id">{{ $key.algorithm }} / {{ $key.id }}</div>
+    <div class="gpg-key-user-list">
+        {{ range $key.users }}
+        <div class="gpg-key-user"><div class="gpg-key-user-name">{{ .name }}</div> <div class="gpg-key-user-email">&lt;{{ .email }}&gt;</div></div>
+        {{ end }}
+    </div>
+    {{ if $key.comment }}
+        <div class="gpg-key-comment">
+            <div class="gpg-key-details-header">
+                <b>Comment:</b>
+            </div>
+            {{ $key.comment }}
+        </div>
+    {{end}}
+    <div>
+        <div class="gpg-key-details-header">
+            <b>Fingerprint:</b>
+        </div>
+        <div><code>{{ $key.fingerprint }}</code></div>
+    </div>
+    {{ if $key.subkeys }}
+    <div class="gpg-key-subkey-list">
+        <div class="gpg-key-details-header">
+            <b>Subkeys:</b>
+        </div>
+        {{ range $key.subkeys }}
+            {{ $subkey := . }}
+            <div class="gpg-key-subkey">
+                <span class="gpg-key-subkey-id">{{ $subkey.algorithm }}/{{ $subkey.id }}</span>
+                <span>[{{range $subkey.type}}<span class="gpg-key-subkey-type"><b>{{ upper (slicestr . 0 1) }}</b>{{ slicestr . 1 }}</span>{{end}}]</span>
+                {{ if $subkey.comment }}<span>({{ $subkey.comment }})</span>{{end}}
+            </div>
+        {{ end}}
+    </div>
+    {{ end }}
+    {{ range $key.downloads }}
+    {{ $download := . }}
+    <div class="gpg-key-download">
+        <div class="gpg-key-details-header">
+            <b>Download:</b>
+            {{ if $download.url }}
+                <a href="{{ $download.url }}">{{ or $download.title $download.keyserver }}</a>
+            {{ else }}
+                {{ or $download.title $download.keyserver }}
+            {{ end}}
+        </div>
+        {{ if $download.keyserver }}
+            <div class="gpg-key-download-script">
+                gpg --keyserver {{ $download.keyserver }} --recv-keys {{ $key.id }}
+            </div>
+        {{ else if $download.url }}
+            <div class="gpg-key-download-script">
+                curl {{ $download.url }} | gpg --import
+            </div>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>

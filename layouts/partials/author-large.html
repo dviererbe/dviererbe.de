@@ -1,0 +1,6 @@
+{{ $author := index .Site.Data.authors (cast.ToString .Params.author) }}
+<div class="author author-large">
+  <img width="50" class="author-image" src="{{ $author.image | relURL }}" alt="{{ $author.name }}" />
+  <span class="author-name">{{ $author.name }}</span>
+  <span class="author-title">{{ $author.shortDescription }}</span>
+</div>

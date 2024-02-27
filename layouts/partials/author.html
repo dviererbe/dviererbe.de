@@ -1,0 +1,7 @@
+{{ $author := index .Site.Data.authors (cast.ToString .Params.author) }}
+<div class="author">
+  <img width="30" class="author-image" src="{{ $author.image | relURL }}" alt="{{ $author.name }}" />
+  <span class="author-name">{{ $author.name }}</span>
+  <span class="author-divider"></span>
+  <span class="author-date"><time>{{ dateFormat "Monday, 02 January 2006 -07:00" .Date }}</time></span>
+</div>

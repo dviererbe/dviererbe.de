@@ -1,0 +1,34 @@
+{
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/dviererbe",
+      "image": "images/social/github.svg"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/dviererbe/?locale=en_US",
+      "image": "images/social/linkedin.svg"
+    },
+    {
+      "name": "Launchpad",
+      "url": "https://launchpad.net/~dviererbe",
+      "image": "images/social/launchpad.svg"
+    },
+    {
+      "name": "Keybase",
+      "url": "https://keybase.io/dviererbe",
+      "image": "images/social/keybase.svg"
+    },
+    {
+      "name": "Exercism",
+      "url": "https://exercism.org/profiles/dviererbe",
+      "image": "images/social/exercism.svg"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/user/dviererbe/",
+      "image": "images/social/reddit.svg"
+    }
+  ]
+}

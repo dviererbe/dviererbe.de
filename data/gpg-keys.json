@@ -1,0 +1,178 @@
+{
+    "69C2C1E50A7CC21A": {
+        "id": "69C2C1E50A7CC21A",
+        "algorithm": "rsa4096",
+        "fingerprint": "532C 3162 3FDF A677 A03A  FE30 69C2 C1E5 0A7C C21A",
+        "users": [
+            {
+                "name": "Dominik Viererbe",
+                "email": "dominik.viererbe@canonical.com"
+            }
+        ],
+        "comment": "I used this key to sign emails, commits and uploads as part of my work as a Canonical employee.",
+        "subkeys": [
+            {
+                "id": "4DD9D00E37ABF333",
+                "algorithm": "rsa4096",
+                "type": [ "sign" ]
+            }
+        ],
+        "downloads": [
+            {
+                "keyserver": "keyserver.ubuntu.com",
+                "url": "https://keyserver.ubuntu.com/pks/lookup?search=69C2C1E50A7CC21A&fingerprint=on&op=index"
+            },
+            {
+                "title": "dviererbe.de",
+                "url": "https://dviererbe.de/gpg-keys/69C2C1E50A7CC21A.asc"
+            }
+        ]
+    },
+    "2AE5687DA7FCD750": {
+        "id": "2AE5687DA7FCD750",
+        "algorithm": "rsa4096",
+        "fingerprint": "DF4C 93A2 865A 15C5 4EE4  1AD9 2AE5 687D A7FC D750",
+        "users": [
+            {
+                "name": "Dominik Viererbe",
+                "email": "dominik.viererbe@canonical.com"
+            }
+        ],
+        "comment": "I use this key to sign emails, commits and uploads as part of my work as a Canonical employee.",
+        "subkeys": [
+            {
+                "id": "29C8F99C83654F1C",
+                "algorithm": "ed25519",
+                "type": [ "sign" ]
+            },
+            {
+                "id": "C58264F8F5CC9296",
+                "algorithm": "rsa4096",
+                "type": [ "sign" ]
+            }
+        ],
+        "downloads": [
+            {
+                "keyserver": "keyserver.ubuntu.com",
+                "url": "https://keyserver.ubuntu.com/pks/lookup?search=2AE5687DA7FCD750&fingerprint=on&op=index"
+            },
+            {
+                "title": "dviererbe.de",
+                "url": "https://dviererbe.de/gpg-keys/2AE5687DA7FCD750.asc"
+            }
+        ]
+    },
+    "1CC71CAB3B9AC351": {
+        "id": "1CC71CAB3B9AC351",
+        "algorithm": "ed25519",
+        "fingerprint": "591C 950F 0086 BAF5 68CC  AC9C 1CC7 1CAB 3B9A C351",
+        "users": [
+            {
+                "name": "Dominik Viererbe",
+                "email": "hello@dviererbe.de"
+            }
+        ],
+        "comment": "I use these for personal matters, e.g. to sign commits/emails.",
+        "subkeys": [
+            {
+                "id": "6D0146F342482577",
+                "algorithm": "ed25519",
+                "type": [ "sign" ]
+            },
+            {
+                "id": "0D747D40578510F3",
+                "algorithm": "cv25519",
+                "type": [ "encrypt" ]
+            },
+            {
+                "id": "3640812102C42AF7",
+                "algorithm": "ed25519",
+                "type": [ "authorize" ]
+            }
+        ],
+        "downloads": [
+            {
+                "keyserver": "keyserver.ubuntu.com",
+                "url": "https://keyserver.ubuntu.com/pks/lookup?search=1CC71CAB3B9AC351&fingerprint=on&op=index"
+            },
+            {
+                "title": "dviererbe.de",
+                "url": "https://dviererbe.de/gpg-keys/1CC71CAB3B9AC351.asc"
+            }
+        ]
+    },
+    "E30E93278FE1A099": {
+        "id": "E30E93278FE1A099",
+        "algorithm": "rsa4096",
+        "fingerprint": "9321 4D31 D1DB 6298 A063  67C0 E30E 9327 8FE1 A099",
+        "users": [
+            {
+                "name": "Dominik Viererbe",
+                "email": "hello@dviererbe.de"
+            }
+        ],
+        "comment": "This is an alternative set of keys used for personal matters that only uses the RSA algorithm. For people which do not trust elliptic curve cryptography algorithms or platforms that do not support it.",
+        "subkeys": [
+            {
+                "id": "53B2070593D372E0",
+                "algorithm": "rsa4096",
+                "type": [ "sign" ]
+            },
+            {
+                "id": "F8B74AB6C59F6EAF",
+                "algorithm": "rsa4096",
+                "type": [ "encrypt" ]
+            },
+            {
+                "id": "EA96455CE0D1FA3F",
+                "algorithm": "rsa4096",
+                "type": [ "authorize" ]
+            }
+        ],
+        "downloads": [
+            {
+                "keyserver": "keyserver.ubuntu.com",
+                "url": "https://keyserver.ubuntu.com/pks/lookup?search=E30E93278FE1A099&fingerprint=on&op=index"
+            },
+            {
+                "title": "dviererbe.de",
+                "url": "https://dviererbe.de/gpg-keys/E30E93278FE1A099.asc"
+            }
+        ]
+    },
+    "964830C0D13518D5": {
+        "id": "964830C0D13518D5",
+        "algorithm": "ed25519",
+        "fingerprint": "2B14 C68A 4A73 9CB2 AE24  3232 9648 30C0 D135 18D5",
+        "users": [
+            {
+                "name": "Dominik Viererbe",
+                "email": "me@dviererbe.de"
+            }
+        ],
+        "comment": "",
+        "subkeys": [
+            {
+                "id": "0FABCE582BF405C1",
+                "algorithm": "ed25519",
+                "type": [ "sign" ]
+            },
+            {
+                "id": "6BCDA08868651D74",
+                "algorithm": "cv25519",
+                "type": [ "encrypt" ]
+            },
+            {
+                "id": "17CE9DB4A103C90B",
+                "algorithm": "ed25519",
+                "type": [ "authorize" ]
+            }
+        ],
+        "downloads": [
+            {
+                "title": "dviererbe.de",
+                "url": "https://dviererbe.de/gpg-keys/964830C0D13518D5.asc"
+            }
+        ]
+    }
+}

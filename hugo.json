@@ -1,0 +1,73 @@
+{
+  "baseUrl": "https://dviererbe.de/",
+  "languageCode": "en-us",
+  "theme": "hugo-winston-theme",
+  "enableEmoji": true,
+  "title": "Dominik Viererbe (@dviererbe)",
+  "params": {
+    "showAuthorOnPosts": true,
+    "showIntroContentOnHomepage": true,
+    "showPostsOnHomepage": false,
+    "addDot": true,
+    "addFrame": true,
+    "highlightColor": "#512bd4",
+    "baseColor": "#fafafa",
+    "baseOffsetColor": "#eaeaea",
+    "headingColor": "#1c1b1d",
+    "textColor": "#4e5157",
+    "dotColor": "#512bd4",
+    "enableGoogleFonts": false,
+    "fontFamilyHeading": "Ubuntu, sans-serif",
+    "fontFamilyParagraph": "Ubuntu, Helvetica",
+    "fontFamilyMonospace": "Ubuntu Mono, monospace",
+    "owner": "dviererbe"
+  },
+  "menu": {
+    "main": [
+      {
+        "name": "Home",
+        "identifier": "home",
+        "url": "/",
+        "weight": 1
+      },
+      {
+        "name": "Blog",
+        "identifier": "blog",
+        "weight": 2,
+        "url": "/posts/"
+      },
+      {
+        "name": "About",
+        "identifier": "about",
+        "weight": 3,
+        "url": "/about/"
+      },
+      {
+        "name": "Contact",
+        "identifier": "contact",
+        "weight": 4,
+        "url": "/contact/"
+      },
+      {
+        "name": "Tags",
+        "identifier": "tags",
+        "weight": 5,
+        "url": "/tags"
+      }
+    ]
+  },
+  "author": {
+    "dviererbe": {
+      "name": "Dominik Viererbe",
+      "image": "images/dviererbe-256.png"
+    }
+  },
+  "markup": {
+    "tableOfContents": {
+       "endLevel": 3,
+       "ordered": true,
+       "startLevel": 2
+    }
+ }
+}
+
