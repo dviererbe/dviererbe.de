@@ -3,7 +3,7 @@ title: 'Privacy Policy'
 url: "/privacy-policy/"
 ---
 
-Last updated: {{< time-tag timestamp="2024-02-27" display="27 February 2024" >}}
+Last updated: {{< time-tag timestamp="2024-02-28" display="28 February 2024" >}}
 
 # Information Collected
 
@@ -23,7 +23,15 @@ This information may include:
 - Time spent on each page
 - Referring website
 
-No cookies are used and no personal identifying data is stored.
+Additionally this page uses [giscus](https://giscus.app/) to provide a comment
+system for blog entries. To comment, you must authorize the giscus app to post
+on your behalf using the GitHub OAuth flow. Alternatively, you can comment on
+the GitHub Discussion directly.
+
+See the [github privacy policy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for details on which information is collected,
+how your information is used and 3rd party data sharing when writing a comment.
+
+This website uses no cookies are and does not store personal identifying data.
 
 # How I Use Your Information
 
@@ -53,6 +61,5 @@ practices, please contact me:
 legal@dviererbe.de
 
 Postal address is send on request.
-    
 
 See the [contact page](/contact/) for more information on how to contact me.
