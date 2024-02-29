@@ -32,12 +32,13 @@ This Blog will hopefully provide me with similar opportunities. Furthermore, I
 finally have an excellent place to document specific topics for myself while
 sharing them with anyone interested.
 
-This project finally came about because my talented girlfriend expressed fears
-similar to mine about writing posts on LinkedIn, so we teamed up to peer
-pressure each other into this endeavour. This website's current state is far
-from what I envision (just look at it on a mobile device :sweat_smile:), but it
-is a starting point. If you need an opportunity to start the project you have
-been thinking about for too long, feel free to join us :grin:
+This project finally came about because my talented girlfriend
+([Sabine Heyne](https://smheyne.de/)) expressed fears similar to mine about
+writing posts on LinkedIn, so we teamed up to peer pressure each other into this
+endeavour. This website's current state is far from what I envision (just look
+at it on a mobile device :sweat_smile:), but it is a starting point. If you need
+an opportunity to start the project you have been thinking about for too long,
+feel free to join us :grin:
 
 # What can you expect from this Blog?
 
