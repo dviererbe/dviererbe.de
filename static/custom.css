@@ -33,6 +33,21 @@ td {
     border: 2px dotted var(--base-offset-color);
 }
 
+.summary :not(.summary-title) 
+{
+    text-decoration: none;
+}
+
+.summary-title
+{
+    color: var(--highlight-color);
+}
+
+.summary:hover .summary-title
+{
+    text-decoration: underline;
+}
+
 .gpg-key-summary
 {
     border-left: 5px solid var(--highlight-color);
