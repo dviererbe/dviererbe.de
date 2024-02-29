@@ -1,3 +1,6 @@
 {
-    "origins": ["https://www.dviererbe.de/"]
+    "origins": [
+        "https://www.dviererbe.de",
+        "https://www.dviererbe.de/posts"
+    ]
 }
